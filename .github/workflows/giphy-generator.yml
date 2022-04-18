@@ -18,6 +18,6 @@ jobs:
         env:
           GITHUB_TOKEN ${{ secrets.GITHUB_TOKEN }}
           GIPHY ${{ secrets.GIPHY_TOKEN }}
-            with:
-              rating: 'g'
-              lang; 'en'
+        with:
+          rating: 'g'
+          lang: 'en'
