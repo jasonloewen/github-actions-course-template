@@ -6,7 +6,7 @@ on:
   pull_request:
     types: [opened, edited]
   issue_comment:
-    types: [opened, edited]
+    types: [created, edited]
     
 jobs:
   giphy-generator:
